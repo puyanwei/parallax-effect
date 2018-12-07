@@ -2,7 +2,6 @@
     "name": "A-Default-Template",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
     "scripts": {
         "watch": "sass --watch css/styles.scss css/styles.css"
     },
