@@ -1,5 +1,30 @@
 body {
-  background: blue;
+  background: #e7e5e5;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  height: 100vh;
+  background-size: cover;
+  background-image: url(https://picsum.photos/2000/1000?image=817);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header h1 {
+  position: absolute;
+  font-size: 33.6vh;
+  text-align: center;
+  color: white;
+  line-height: 0.9;
+  top: 3rem;
+  margin: auto;
+}
+
+.text {
+  width: 30rem;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

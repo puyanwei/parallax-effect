@@ -4,7 +4,7 @@
     "description": "",
     "scripts": {
         "watch": "sass --watch css/styles.scss css/styles.css",
-        "browser-sync": "browser-sync start --server --files \"css/*.css\"",
+        "browser-sync": "browser-sync start --server --files *.html css/*.css",
         "start": "parallelshell \"npm run watch\" \"npm run browser-sync\""
     },
     "keywords": [],
