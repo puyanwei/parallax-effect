@@ -2,27 +2,29 @@ body {
     background: rgb(231, 229, 229);
     font-family: 'Roboto', sans-serif;
     height: 100vh;
-    width: 100vw;
 }
 
-header {
+.hero-container {
+    position: relative;
     height: 100vh;
+    width: 100vw;
     background-size: cover;
     background-image: url(https://picsum.photos/2000/1000?image=817);
     background-position: center;
     background-repeat: no-repeat;
-    h1 {
+    color: white;
+    .hero-text {
         position: absolute;
-        font-size: 33.6vh;
-        text-align: center;
-        color: white;
-        line-height: 0.9;
-        top: 3rem;
-        margin: auto;
+        font-size: 23vw;
+        width: 1rem;
+        line-height: 0.8;
+        top: 10%;
+        margin: 0;
+        left: 20%;
     }
 }
 
-.text {
+.article-text {
     width: 30rem;
     margin: auto;
 }
