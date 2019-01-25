@@ -3,12 +3,18 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "watch": "sass --watch css/styles.scss css/styles.css"
+        "watch": "sass --watch css/styles.scss css/styles.css",
+        "browser-sync": "browser-sync start --server --files \"css/*.css\"",
+        "start": "parallelshell \"npm run watch\" \"npm run browser-sync\""
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "browser-sync": "^2.26.3",
         "sass": "^1.15.1"
+    },
+    "devDependencies": {
+        "parallelshell": "^3.0.1"
     }
 }
